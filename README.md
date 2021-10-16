@@ -2,5 +2,6 @@
 
 React,
 Axios Api,
-Spring Boot Data JPA,
+Spring Boot,
+JPA Repository, 
 Restfull API
