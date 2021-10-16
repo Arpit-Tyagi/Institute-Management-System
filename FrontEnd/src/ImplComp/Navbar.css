@@ -1,0 +1,252 @@
+.NavbarItems {
+    background: linear-gradient(90deg, rgb(211, 190, 198), rgb(209, 74, 202), rgb(171, 74, 209) 100%);
+    height:80px;
+    display:flex;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+ z-index: 999;   
+}
+
+
+.dropbtn {
+    background-color: transparent;
+    color:rgb(7, 7, 7);
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  .inner-dropbtn {
+    background-color: transparent;
+    color:rgb(7, 7, 7);
+    padding: 0.5rem 1rem;
+   
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(235, 75, 181);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .inner-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(235, 75, 181);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .inner-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  .inner-dropdown-content a:hover {background-color: #f1f1f1}
+
+  .inner-dropdown:hover .inner-dropdown-content{
+    display: inline-block;
+  }
+
+
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #fdfdfd;
+    border-radius: 4px;
+    transition: all 1s ease-out
+  }
+  .inner-dropdown:hover .inner-dropbtn {
+    background-color: #f1f1f1;
+  
+  }
+
+.navbar-logo{
+    color: rgb(141, 10, 123);
+    justify-self: start;
+    margin-left: 2px;
+    font-weight: 700;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.fa-react{
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    font-weight: 600;
+    width:70vw;
+    justify-content: end;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.dropdownlist{
+    background: rgb(235, 75, 181);
+
+}
+
+.nav-links {
+    color:rgb(7, 7, 7);
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.5rem;
+}
+
+.nav-links:hover {
+    background-color: #fdfdfd;
+    border-radius: 4px;
+    color: black;
+    transition: all 1s ease-out;
+}
+
+.fa-bars{
+    color: #fff;
+}
+.nav-links-mobile {
+    display: none;
+}
+
+.menu-icon {
+    display:none;
+}
+
+@media screen and (max-width: 1160px){
+    .NavbarItems{
+        position: relative;
+    }
+
+.nav-menu{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 80px;
+    left:-100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+
+}
+.nav-menu.active{
+    background:#1c1c1de1;
+    left:0;
+    opacity: 1;
+    transition: all 2s ease;
+    z-index: 1;
+
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #faf8f9;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+  }
+
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: rgb(235, 75, 181);
+    color:rgb(114, 87, 150);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #70093d;
+    border-radius: 0;
+  }
+
+.nav-links{
+    text-align: center;
+    padding: 2rem;
+    color: #faf8f9;
+    width: 100%;
+    display: table;
+}
+.nav-links:hover{
+    background-color: #70093d;
+    border-radius: 0;
+}
+
+.navbar-logo{
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(5%, 10%);
+    margin-left: auto;
+
+}
+.menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor:pointer;
+}
+.fa-times{
+    color: #fff;
+    font-size: 2rem;
+}
+.nav-links-moble{
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin : 2rem auto;
+    border-radius: 4px;
+    width:80%;
+    background: #4ad9c4;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.nav-links-mobile:hover{
+    background: #fff;
+    color: #06262c;
+    transition: 250ms;
+
+}
+Button{
+    display: none;
+}
+}

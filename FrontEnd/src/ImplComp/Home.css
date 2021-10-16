@@ -1,0 +1,84 @@
+.FrontImages {
+    background: linear-gradient(90deg, rgb(224, 153, 153), rgb(192, 142, 173) 100%);
+    height: auto;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.FrontText{
+    color: rgb(241, 247, 245);
+    
+    justify-self: start;
+    text-align: center;
+    
+}
+.FrontHeader{
+    color: rgb(7, 51, 38);
+    font-weight: 800;
+    justify-self: start;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.center {
+    display: block;
+  margin: auto;
+  }
+
+  .FAboutUs {
+    background: linear-gradient(90deg,rgb(224, 153, 153), rgb(192, 142, 173)100%);
+    height:auto;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.FAboutUsText{
+    color: rgb(7, 51, 38);;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    cursor: text;
+}
+.FAboutUsHeading{
+    font-weight: 800;
+    text-align: center;
+}
+
+.CardBody{
+    background: linear-gradient(90deg, rgb(185, 140, 166), rgb(223, 103, 177) 100%);
+    height: auto;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+.PlacementText{
+    color: rgb(7, 51, 38);;
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    cursor: text;
+}
+
+@media screen and (max-width: 960px){
+    .FAboutUs{
+        position: relative;
+        background: linear-gradient(90deg,rgb(224, 153, 153), rgb(192, 142, 173) 100%);
+        height:700px;
+        display:block;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+}
+

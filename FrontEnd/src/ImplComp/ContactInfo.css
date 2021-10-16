@@ -1,0 +1,43 @@
+.FContactUs {
+    background: linear-gradient(90deg, rgb(211, 190, 198), rgb(214, 135, 175), rgb(180, 140, 196) 100%);
+    height: auto;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.FContactUsText{
+    color: rgb(7, 51, 38);;
+    justify-self: start;
+
+}
+.FAboutUsText{
+    color: rgb(7, 51, 38);;
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    cursor: text;
+}
+.FAboutUsHeading{
+    color: rgb(7, 51, 38);;
+    cursor: text;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 960px){
+    .FContactUs{
+        position: relative;
+        background: linear-gradient(90deg,rgb(211, 190, 198), rgb(214, 135, 175), rgb(180, 140, 196) 100%);
+        height:auto;
+        display:block;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+}

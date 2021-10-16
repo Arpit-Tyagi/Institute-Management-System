@@ -1,0 +1,18 @@
+.adminPortal{
+    background: linear-gradient(90deg, rgb(224, 153, 153), rgb(192, 142, 173) 100%);
+    height: auto;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+      
+}
+
+.adminPortalSide{
+    height: auto;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+      
+}

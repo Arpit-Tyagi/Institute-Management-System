@@ -1,0 +1,33 @@
+.classlink-container {
+    margin: 50px auto;
+    width: 67%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: auto;
+    display: grid;
+ 
+}
+.classlink-content-right {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    background: linear-gradient(90deg, rgb(192, 157, 157) 0%, rgb(230, 216, 216) 100%);
+  }
+
+  .classlink-click{ 
+      margin-top: 2rem;
+      margin-left: 43%;
+      height: fit-content;
+    width: fit-content;
+  }
+  .classlink-drop {
+    margin-top: 2rem;
+ margin-left: 41%;
+    width: 140px;
+    height:35px;
+}
+
+.classlink-content-right h3{
+    text-align: center;
+    margin-top: 10px;
+}

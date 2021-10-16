@@ -1,0 +1,10 @@
+.adminCommon{
+        height: auto;
+        display:block;
+        align-content: center;
+        align-items: center;
+        margin-left: 15rem;
+        font-size: 1rem;  
+        position: absolute;  
+    
+}

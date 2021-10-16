@@ -1,0 +1,34 @@
+.faculty-container {
+    margin: 25px auto;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: auto;
+    display: grid;
+ 
+}
+.faculty-content-right {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    background: linear-gradient(90deg, rgb(192, 157, 157) 0%, rgb(230, 216, 216) 100%);
+  }
+
+  .faculty-click{ 
+      margin-left: 43%;
+      height: fit-content;
+    width: fit-content;
+    margin-bottom: 1.5rem ;
+  }
+  .faculty-drop {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+ margin-left: 41%;
+    width: 140px;
+    height:35px;
+}
+
+.faculty-content-right h3{
+    text-align: center;
+    margin-top: 10px;
+}

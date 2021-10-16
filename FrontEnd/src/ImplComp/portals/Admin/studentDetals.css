@@ -1,0 +1,51 @@
+.announ-container {
+  margin: 50px auto;
+  width: 67%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: auto;
+  display: grid;
+
+}
+.std-content-right {
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  background: linear-gradient(90deg, rgb(192, 157, 157) 0%, rgb(230, 216, 216) 100%);
+}
+
+.std-click{ 
+    margin-left: 42%;
+   height: fit-content;
+  width: fit-content;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.std-drop {
+    margin-top: 20px;
+margin-left: 40%;
+  width: 140px;
+  height:35px;
+}
+
+.std-content-right h3{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.bttn{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 6.5rem;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.inputId {
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 45px;
+
+}
